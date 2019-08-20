@@ -4,7 +4,7 @@ Playing with Swift Sequences
 ## Data Structures
 
 - Stack
-- Queue (missing)
+- Queue
 - Binary Tree (in-order, pre-order & post-order)
 
 ## Other sequences
