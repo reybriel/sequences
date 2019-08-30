@@ -18,9 +18,8 @@ public struct Stack<T>: Sequence {
     }
     
     public mutating func pop() -> T? {
-        let element = topNode.element
-        topNode = topNode.next
-        return element
+        defer { topNode = topNode.next }
+        return topNode.element
     }
 }
 
